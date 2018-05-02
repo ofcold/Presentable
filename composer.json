@@ -1,0 +1,31 @@
+{
+    "name": "ofcold/presentable",
+    "description": "Decorate your objects using presenters. Primarily to keep presentation logic out of your models.",
+    "keywords": [
+        "php71",
+        "ID Card",
+        "Region",
+        "Area"
+    ],
+    "homepage": "https://ofcold.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bill li",
+            "email": "bill.li@ofcold.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ofcold\\Presentable\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
