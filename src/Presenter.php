@@ -249,4 +249,19 @@ abstract class Presenter implements \ArrayAccess
 			return $method;
 		}
 	}
+
+	/**
+	 *	Return the objects string method.
+	 *
+	 *	@return		string
+	 */
+	public function __toString()
+	{
+		if ( method_exists($this->object, '__toString') )
+		{
+			return $this->object->__toString();
+		}
+
+		return json_encode($this->object);
+	}
 }
