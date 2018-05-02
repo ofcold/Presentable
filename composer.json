@@ -3,9 +3,8 @@
     "description": "Decorate your objects using presenters. Primarily to keep presentation logic out of your models.",
     "keywords": [
         "php71",
-        "ID Card",
-        "Region",
-        "Area"
+        "Presenter",
+        "Model"
     ],
     "homepage": "https://ofcold.com",
     "type": "library",
@@ -18,6 +17,10 @@
     ],
     "require": {
         "php": "^7.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
